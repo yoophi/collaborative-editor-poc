@@ -1,0 +1,31 @@
+{
+  "name": "collaborative-editor-poc-yjs-monaco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoophi/collaborative-editor-poc/issues"
+  },
+  "homepage": "https://github.com/yoophi/collaborative-editor-poc#readme",
+  "dependencies": {
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "monaco-editor": "^0.23.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "y-monaco": "^0.1.2",
+    "y-webrtc": "^10.1.8",
+    "yjs": "^13.5.4"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
+}
